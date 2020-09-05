@@ -1,0 +1,11 @@
+[Unit]
+Description=OpenBTS
+
+[Service]
+Type=simple
+ExecStart=/OpenBTS/OpenBTS
+WorkingDirectory=/OpenBTS
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

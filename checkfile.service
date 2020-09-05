@@ -1,0 +1,10 @@
+[Unit]
+Description=checkempty_tonghopjson
+
+[Service]
+Type=simple
+ExecStart=/usr/local/src/WebBTS/checkfile.sh
+WorkingDirectory=/usr/local/src/WebBTS/
+
+[Install]
+WantedBy=multi-user.target
